@@ -1,13 +1,13 @@
 /* OBS */
 body {
-    background-color: rgba(170, 222, 242, 0.5);
+    background-color: rgba(222, 222, 222, 0.5);
     margin: 0px auto;
     overflow: hidden;
 }
 
 /********** パラメータ部分 **********/
 :root {
-    --background-color: rgba(170, 222, 242, 0.2);
+    --background-color: rgba(222, 222, 222, 0.2);
     --text-title: none;
     --font-type: serif;
     --font-color: rgb(65, 65, 65);    /*字の色*/

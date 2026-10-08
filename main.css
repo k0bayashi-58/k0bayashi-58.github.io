@@ -7,7 +7,7 @@ body {
 
 /********** パラメータ部分 **********/
 :root {
-    --background-color: rgba(170, 222, 242, 0.8);
+    --background-color: rgba(170, 222, 242, 0.2);
     --text-title: none;
     --font-type: serif;
     --font-color: rgb(65, 65, 65);    /*字の色*/

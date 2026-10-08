@@ -58,6 +58,17 @@ p.MuiTypography-root.MuiTypography-body2 {
     }
 }
 
+.MuiList-root>div:nth-child(1)>div>div>div {
+  display: none;
+  height: auto !important;
+  min-height: auto !important;
+  width: var(--width) !important;
+  position: static !important;
+  flex-shrink: 0;
+  margin: 10px;
+}
+
+
 /********** パラメータ部分 **********/
 :root {
     /*--background-color: rgba(170, 222, 242, 0.8);*/

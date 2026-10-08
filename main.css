@@ -1,6 +1,6 @@
 /* OBS */
 body {
-    background-color: rgba(170, 222, 242, 0.2);
+    background-color: rgba(170, 222, 242, 0.5);
     margin: 0px auto;
     overflow: hidden;
 }
@@ -44,6 +44,6 @@ p.MuiTypography-root.MuiTypography-body2 {
 
 /* 背景色 */
 .MuiPaper-root {
-    background-color: var(--background-color, rgba(222, 222, 222, 0.2));
+    background-color: var(--background-color, rgba(222, 222, 222, 0.5));
 /*  background-color: rgba(170, 222, 242, 0.5);*/
 }

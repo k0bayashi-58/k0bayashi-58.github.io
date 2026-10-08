@@ -42,7 +42,7 @@ p.MuiTypography-root.MuiTypography-body2 {
 
 /********** アニメーション **********/
 :root {
-  --fadeout-sec: 20s;
+  --fadeout-sec: 10s;
 }
 .MuiListItem-gutters {
   animation:

@@ -43,6 +43,12 @@ p.MuiTypography-root.MuiTypography-body2 {
 /********** アニメーション **********/
 :root {
   --fadeout-sec: 10s;
+/*--background-color: rgba(170, 222, 242, 0.8);*/
+/*--text-title: none;*/
+/*--font-type: serif;*/
+/*--font-color: rgb(65, 65, 65);字の色*/
+    --font-color-fail:    rgb(220, 0, 78);   /*rgb(220, 0, 78)*/
+    --font-color-success: rgb(33, 150, 243); /*rgb(33, 150, 243)*/
 }
 .MuiListItem-gutters {
   animation:
@@ -92,15 +98,4 @@ p.MuiTypography-root.MuiTypography-body2 {
   position: static !important;
   flex-shrink: 0;
   margin: 10px;
-}
-
-
-/********** パラメータ部分 **********/
-:root {
-    /*--background-color: rgba(170, 222, 242, 0.8);*/
-    /*--text-title: none;*/
-    /*--font-type: serif;*/
-    /*--font-color: rgb(65, 65, 65);字の色*/
-    --font-color-fail:    rgb(220, 0, 78);   /*rgb(220, 0, 78)*/
-    --font-color-success: rgb(33, 150, 243); /*rgb(33, 150, 243)*/
 }

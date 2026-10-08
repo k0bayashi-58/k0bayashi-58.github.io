@@ -26,3 +26,24 @@ header>.MuiToolbar-gutters,
 ::-webkit-scrollbar {
     display: none !important;
 }
+
+/********** チャット部分変更 **********/
+.MuiTypography-root {
+    font-family:var(--font-type);
+}
+
+/* テキストタイトル on/off */
+.MuiListItemText-primary {
+    display: var(--text-title, block);
+}
+
+/* 本文 */
+p.MuiTypography-root.MuiTypography-body2 {
+    color: var(--font-color);
+}
+
+/* 背景色 */
+.MuiPaper-root {
+    background-color: var(--background-color, rgba(222, 222, 222, 0.2));
+/*  background-color: rgba(170, 222, 242, 0.5);*/
+}
